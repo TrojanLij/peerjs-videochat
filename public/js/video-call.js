@@ -2,6 +2,10 @@
  * Created by rishabhkhanna on 05/12/16.
  */
 
+/**
+* Edited by TrojanLij on 30/10/2018.
+*/
+
 navigator.getUserMedia = ( navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia);
 
 var peer = new Peer({host: location.hostname,
@@ -47,6 +51,7 @@ function callback(call) {
         console.log("below");
         var video = document.querySelector('video');
         window.URL = window.URL || window.webkitURL || window.mozURL || window.msURL;
+        //video.src with window.URL.createObjectURL and a stream doesn't work with Firefox Nightly 65.0a1 (2018-10-29) (64-bit)
         //video.src = window.URL.createObjectURL(stream);
         video.srcObject = stream;
     })
