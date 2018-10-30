@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P2P Video Chat App</title><script src="js/jquery-3.1.1.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="./js/peer.js"></script>
+</head>
+<body>
+<div style="align-items: center">
+<video  autoplay></video>
+</div>
+
+<div class="panel panel-default" style="margin: 50px">
+<div class="panel-heading">your Contact Id is :</div> <div id="peer-id" class="panel-body" ></div>
+</div>
+<div style="margin: 50px;">
+<input type="text" id="dest-id">
+<button class="btn btn-default" type="button" onclick="callPeer()">call</button>
+</div>
+
+<script src="js/video-call.js">
+</script>
+</body>
+</html>
