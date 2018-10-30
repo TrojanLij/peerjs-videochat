@@ -11,7 +11,7 @@ A video calling app that uses WebRTC and PeerJS Library for making a peer to pee
 1. PeerJs
 2. WebRTC (camera input using getUserMedia)
 
-## Author (go check him out)
+## Original Author (go check him out)
 ### Rishabh Khanna
 #### About Me
 * [LinkedIn](https://in.linkedin.com/in/rishabh-khanna-670bb0127)
