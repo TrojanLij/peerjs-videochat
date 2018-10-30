@@ -4,7 +4,7 @@ A video calling app that uses WebRTC and PeerJS Library for making a peer to pee
 ## Supported browsers
 * chrome > 21
 * Opera  > 12
-* Firefox > 17 (requires media.navigator.enabled = true in about:config)
+* Firefox > 17 
 * chorme for android
 
 ## Libraries Used
